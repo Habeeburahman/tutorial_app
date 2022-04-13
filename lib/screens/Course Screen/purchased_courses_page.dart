@@ -92,7 +92,7 @@ class ChapterTab extends StatelessWidget {
                 Row(
                   children: [
                     Container(
-                        margin: EdgeInsets.all(10),
+                        margin: const EdgeInsets.all(10),
                         width: 50,
                         height: 50,
                         child: Image.asset(
@@ -121,7 +121,8 @@ class ChapterTab extends StatelessWidget {
                 ),
                 Row(
                   children: [
-                    IconButton(onPressed: () {}, icon: Icon(Icons.play_arrow))
+                    IconButton(
+                        onPressed: () {}, icon: const Icon(Icons.play_arrow))
                   ],
                 )
               ],

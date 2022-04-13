@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:tutorial_app/constant/asset_constant.dart';
 import 'package:tutorial_app/constant/color_constant.dart';
-import 'package:tutorial_app/screens/purchased_courses_page.dart';
+import 'package:tutorial_app/screens/Course%20Screen/purchased_courses_page.dart';
 
 import 'Widgets/app_bar.dart';
 import 'Widgets/card_widget.dart';
@@ -70,7 +70,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                SizedBox(
+                const SizedBox(
                   height: 76,
                 ),
                 Container(
@@ -129,13 +129,13 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                           controller: controller,
                           children: [
                             Column(
-                              children: [
+                              children: const [
                                 CourseWidget(),
                                 CourseWidget(),
                               ],
                             ),
                             Column(
-                              children: [],
+                              children: const [],
                             ),
                           ],
                         ),
@@ -172,7 +172,7 @@ class CourseWidget extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                  margin: EdgeInsets.all(10),
+                  margin: const EdgeInsets.all(10),
                   width: 50,
                   height: 50,
                   child: Image.asset(
@@ -200,7 +200,7 @@ class CourseWidget extends StatelessWidget {
                 children: [
                   IconButton(
                       onPressed: () {
-                        Get.to(PurchasedCoursesPage());
+                        Get.to(const PurchasedCoursesPage());
                       },
                       icon: const Icon(Icons.arrow_forward)),
                 ],
