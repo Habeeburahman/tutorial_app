@@ -1,7 +1,6 @@
 import 'package:blurrycontainer/blurrycontainer.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:tutorial_app/constant/asset_constant.dart';
 import 'package:tutorial_app/constant/color_constant.dart';
 import 'package:tutorial_app/screens/Home%20Screen/home_screen.dart';
 
@@ -78,7 +77,7 @@ class LoginScreen extends StatelessWidget {
                       width: double.infinity,
                       child: InkWell(
                         onTap: () {
-                          Get.to(HomeScreen());
+                          Get.to(const HomeScreen());
                         },
                         child: BlurryContainer(
                           bgColor: ColorConstant.white,

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tutorial_app/constant/color_constant.dart';
 
 class PasswordTextField extends StatelessWidget {
   const PasswordTextField({
@@ -13,7 +12,7 @@ class PasswordTextField extends StatelessWidget {
       child: TextField(
         obscureText: true,
         decoration: InputDecoration(
-          prefixIcon: Icon(
+          prefixIcon: const Icon(
             Icons.lock,
             color: Colors.black54,
           ),

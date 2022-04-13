@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tutorial_app/constant/asset_constant.dart';
 
 class AppIconWidget extends StatelessWidget {
   const AppIconWidget({

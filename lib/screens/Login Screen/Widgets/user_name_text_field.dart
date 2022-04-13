@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tutorial_app/constant/color_constant.dart';
 
 class UserNameTextField extends StatelessWidget {
   const UserNameTextField({

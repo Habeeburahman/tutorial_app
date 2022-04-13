@@ -13,7 +13,7 @@ class CardWidget extends StatelessWidget {
       borderRadius: BorderRadius.circular(17),
       height: 100,
       width: 30,
-      child: Center(
+      child: const Center(
         child: Text(
           "Welcome user \n12 Courses completed",
           style: TextStyle(
